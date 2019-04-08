@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .wrapper header {
+    background: orange;
+    color: #fff; }
+  .wrapper #main {
+    flex: 1; }
+  .wrapper #done {
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    height: 50px;
+    width: 100%;
+    background: orange; }

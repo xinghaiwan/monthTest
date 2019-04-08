@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .wrapper header {
+    background: orange;
+    color: #fff; }
+  .wrapper .mui-content {
+    flex: 1; }
+    .wrapper .mui-content #box {
+      margin-top: 15px;
+      background: #fff; }
+      .wrapper .mui-content #box p {
+        padding-left: 15px;
+        box-sizing: border-box; }
+      .wrapper .mui-content #box .check {
+        display: flex; }
+        .wrapper .mui-content #box .check div:first-child {
+          width: 50%;
+          padding-left: 15px;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: flex-start; }
+        .wrapper .mui-content #box .check div:nth-child(2) {
+          padding-right: 15px;
+          box-sizing: border-box;
+          width: 50%;
+          display: flex;
+          justify-content: flex-end; }
+          .wrapper .mui-content #box .check div:nth-child(2) #del {
+            margin-right: 15px;
+            border-radius: 10px;
+            z-index: 999; }
+          .wrapper .mui-content #box .check div:nth-child(2) #up {
+            margin-right: 15px;
+            border-radius: 10px; }
+  .wrapper #newAdd {
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    height: 50px;
+    background: orange;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px; }
